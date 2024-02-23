@@ -18,7 +18,7 @@
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/Mascot.png"
+            src="/Mascot.png"
           ></v-img>
         </v-card-text>
         <v-card-actions>

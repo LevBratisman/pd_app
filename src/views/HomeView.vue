@@ -131,7 +131,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/me.png"
+            src="/me.png"
           ></v-img>
         </div>
         <div>
@@ -160,7 +160,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 12.png"
+            src="/чел 12.png"
           ></v-img>
         </div>
         <div>
@@ -180,7 +180,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 5.png"
+            src="/чел 5.png"
           ></v-img>
         </div>
         <div>
@@ -206,7 +206,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/5_1.png"
+            src="/5_1.png"
           ></v-img>
         </div>
         <div>
@@ -235,7 +235,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/я.png"
+            src="/я.png"
           ></v-img>
         </div>
         <div>
@@ -265,7 +265,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 6.png"
+            src="/чел 6.png"
           ></v-img>
         </div>
         <div>
@@ -294,7 +294,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/4.png"
+            src="/4.png"
           ></v-img>
         </div>
         <div>
@@ -323,7 +323,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 2.png"
+            src="/чел 2.png"
           ></v-img>
         </div>
         <div>
@@ -349,7 +349,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 1.png"
+            src="/чел 1.png"
           ></v-img>
         </div>
         <div>
@@ -375,7 +375,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 4.png"
+            src="/чел 4.png"
           ></v-img>
         </div>
         <div>
@@ -404,7 +404,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 7.png"
+            src="/чел 7.png"
           ></v-img>
         </div>
         <div>
@@ -433,7 +433,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 3.png"
+            src="/чел 3.png"
           ></v-img>
         </div>
         <div>
@@ -462,7 +462,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 8.png"
+            src="/чел 8.png"
           ></v-img>
         </div>
         <div>
@@ -491,7 +491,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/чел 9.jpg"
+            src="/чел 9.jpg"
           ></v-img>
         </div>
         <div>
