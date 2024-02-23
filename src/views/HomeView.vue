@@ -25,7 +25,7 @@ export default {
 
       </h1>
 
-      <a href="https://t.me/simplephysics_polyteh" target=»_blank>
+      <a href="https://t.me/simplephysics_polyteh" target=»_blank style="text-decoration: none;">
       <v-btn
         transition="slide-x-transition"
         size="large"
