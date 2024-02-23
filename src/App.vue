@@ -7,34 +7,6 @@
 
     </v-app-bar>
 
-    <v-dialog
-      v-model="dialog"
-      width="auto"
-    >
-      <v-card style="padding: 20px; border-radius: 20px;" variant="flat" color="dark-indigo" class="Mascot-wrapper">
-        <v-card-text class="mascot">
-          <h2>Добро пожаловать в SIMPLE PHYSICS!</h2>
-          <v-img
-            :width="300"
-            aspect-ratio="16/9"
-            cover
-            src="/Mascot.png"
-          ></v-img>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <!-- <a href="#path" style="color: black; text-decoration: none;">
-            <v-btn
-            variant="elevated"
-            color="green"
-            @click="aboutUs"><a href="#path" style="color: black; text-decoration: none;">О нас</a>
-            </v-btn>
-          </a> -->
-          <v-btn variant="elevated" color="gray" @click="this.dialog = false">Закрыть</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-
     <v-main style="padding-top: 0;">
       <RouterView />
     </v-main>
