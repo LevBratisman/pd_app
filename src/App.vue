@@ -63,6 +63,11 @@ export default {
 </script>
 
 <style>
+.v-timeline-item__body {
+  max-width: 400px;
+}
+
+
 .mascot {
   display: flex;
   justify-content: center;

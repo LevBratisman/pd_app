@@ -28,7 +28,7 @@ export default {
       <a href="https://t.me/simplephysics_polyteh" target=»_blank>
       <v-btn
         transition="slide-x-transition"
-        size="x-large"
+        size="large"
         height='72'
         variant="elevated"
         append-icon="mdi-send"
@@ -41,7 +41,7 @@ export default {
       <a href="https://t.me/simplephysicsbot" target=»_blank style="text-decoration: none;">
         <v-btn 
           transition="slide-x-transition"
-          size="x-large"
+          size="large"
           height='72'
           append-icon="mdi-robot"
           color="white"
@@ -56,7 +56,7 @@ export default {
       <a href="#path" style="text-decoration: none;">
         <v-btn 
           transition="slide-x-transition"
-          size="x-large"
+          size="large"
           height='72'
           variant="tonal"
           append-icon="mdi-account-multiple"
@@ -121,7 +121,7 @@ export default {
     </p>
   </div>
   <v-container style="color: #757474">
-    <v-timeline>
+    <v-timeline side="start" style="text-align: left">
       <v-timeline-item>
         <template v-slot:opposite>
           <h2>Разработчик</h2>
@@ -135,7 +135,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Лев</div>
+          <div class="text-h6" style="margin-top: 30px;">Лев</div>
           <p>
             1 Курс
           </p>
@@ -164,7 +164,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Светлана</div>
+          <div class="text-h6" style="margin-top: 30px;">Светлана</div>
           <p>
             Ассистент Центра проектной деятельности
           </p>
@@ -184,7 +184,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Анастасия</div>
+          <div class="text-h6" style="margin-top: 30px;">Анастасия</div>
           <p>
             1 Курс
           </p>
@@ -210,7 +210,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Василиса</div>
+          <div class="text-h6" style="margin-top: 30px;">Василиса</div>
           <p>
             1 Курс
           </p>
@@ -239,7 +239,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Любовь</div>
+          <div class="text-h6" style="margin-top: 30px;">Любовь</div>
           <p>
             1 Курс
           </p>
@@ -269,7 +269,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Родион</div>
+          <div class="text-h6" style="margin-top: 30px;">Родион</div>
           <p>
             1 Курс
           </p>
@@ -298,7 +298,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Ирина</div>
+          <div class="text-h6" style="margin-top: 30px;">Ирина</div>
           <p>
             1 Курс
           </p>
@@ -327,7 +327,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Мерген</div>
+          <div class="text-h6" style="margin-top: 30px;">Мерген</div>
           <p>
             1 Курс
           </p>
@@ -353,7 +353,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Артем</div>
+          <div class="text-h6" style="margin-top: 30px;">Артем</div>
           <p>
             1 Курс
           </p>
@@ -379,7 +379,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Оскар</div>
+          <div class="text-h6" style="margin-top: 30px;">Оскар</div>
           <p>
             1 Курс
           </p>
@@ -408,7 +408,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Ксения</div>
+          <div class="text-h6" style="margin-top: 30px;">Ксения</div>
           <p>
             1 Курс
           </p>
@@ -437,7 +437,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Оксана</div>
+          <div class="text-h6" style="margin-top: 30px;">Оксана</div>
           <p>
             1 Курс
           </p>
@@ -466,7 +466,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Иван</div>
+          <div class="text-h6" style="margin-top: 30px;">Иван</div>
           <p>
             1 Курс
           </p>
@@ -495,7 +495,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6">Айдын</div>
+          <div class="text-h6" style="margin-top: 30px;">Айдын</div>
           <p>
             1 Курс
           </p>
@@ -523,6 +523,10 @@ export default {
 </template>
 
 <style scoped>
+
+.v-timeline-item__body {
+  max-width: 400px;
+}
 .bg-image {
     height: 100vh;
     min-width: 100%;
