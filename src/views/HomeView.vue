@@ -160,7 +160,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="src/images/2.png"
+            src="src/images/чел 12.png"
           ></v-img>
         </div>
         <div>
