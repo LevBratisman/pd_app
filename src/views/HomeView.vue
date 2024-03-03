@@ -35,7 +35,7 @@ export default {
         color="#1976D2"
         rounded="xl"
         >
-        Перейти в Телеграм канал
+        Телеграм канал
       </v-btn>
       </a>
       <a href="https://t.me/simplephysicsbot" target=»_blank style="text-decoration: none;">
@@ -50,7 +50,7 @@ export default {
           block
           style="margin-right: 20px; margin-top: 20px;"
           >
-          Перейти в телеграм бот
+          Телеграм бот
         </v-btn>
       </a>
       <a href="#path" style="text-decoration: none;">
@@ -124,7 +124,7 @@ export default {
     <v-timeline side="start" style="text-align: left">
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Разработчик</h2>
+          <h2 class="role">Разработчик</h2>
         </template>
         <div>
           <v-img
@@ -135,7 +135,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Лев</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Разработчик</a>Лев</div>
           <p>
             1 Курс
           </p>
@@ -153,7 +153,7 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Куратор</h2>
+          <h2 class="role">Куратор</h2>
         </template>
         <div>
           <v-img
@@ -164,7 +164,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Светлана</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Куратор</a>Светлана</div>
           <p>
             Ассистент Центра проектной деятельности
           </p>
@@ -173,9 +173,9 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
-        <div>
+        <div style="padding-right: 13px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -183,8 +183,8 @@ export default {
             src="/чел 5.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Анастасия</div>
+        <div style="padding-right: 13px;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Анастасия</div>
           <p>
             1 Курс
           </p>
@@ -199,18 +199,18 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Дизайнер</h2>
+          <h2 class="role">Дизайнер</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/5_1.png"
+            src="/чел 16.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Василиса</div>
+        <div style="padding-left: 24px;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Василиса</div>
           <p>
             1 Курс
           </p>
@@ -228,7 +228,7 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Дизайнер</h2>
+          <h2 class="role">Дизайнер</h2>
         </template>
         <div>
           <v-img
@@ -239,7 +239,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Любовь</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Любовь</div>
           <p>
             1 Курс
           </p>
@@ -258,9 +258,9 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Монтажер</h2>
+          <h2 class="role">Монтажер</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -268,8 +268,8 @@ export default {
             src="/чел 6.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Родион</div>
+        <div style="padding-left: 24px;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Монтажер</a>Родион</div>
           <p>
             1 Курс
           </p>
@@ -287,18 +287,18 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
         <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/4.png"
+            src="/чел 15.png"
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Ирина</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ирина</div>
           <p>
             1 Курс
           </p>
@@ -316,9 +316,9 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -326,8 +326,8 @@ export default {
             src="/чел 2.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Мерген</div>
+        <div style="padding-left: 24px;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Мерген</div>
           <p>
             1 Курс
           </p>
@@ -342,7 +342,7 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
         <div>
           <v-img
@@ -353,7 +353,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Артем</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Артем</div>
           <p>
             1 Курс
           </p>
@@ -368,7 +368,7 @@ export default {
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
         <div>
           <v-img
@@ -379,7 +379,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Оскар</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оскар</div>
           <p>
             1 Курс
           </p>
@@ -397,7 +397,7 @@ export default {
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
         <div>
           <v-img
@@ -408,7 +408,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Ксения</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ксения</div>
           <p>
             1 Курс
           </p>
@@ -426,9 +426,9 @@ export default {
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -436,8 +436,8 @@ export default {
             src="/чел 3.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Оксана</div>
+        <div style="padding-left: 24px;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оксана</div>
           <p>
             1 Курс
           </p>
@@ -455,7 +455,7 @@ export default {
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
         <div>
           <v-img
@@ -466,7 +466,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Иван</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Иван</div>
           <p>
             1 Курс
           </p>
@@ -484,7 +484,7 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
         <div>
           <v-img
@@ -495,7 +495,7 @@ export default {
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Айдын</div>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Айдын</div>
           <p>
             1 Курс
           </p>
@@ -509,7 +509,65 @@ export default {
             Группа 231-352
           </p>
         </div>
-      </v-timeline-item>			
+      </v-timeline-item>	
+
+      <v-timeline-item>
+        <template v-slot:opposite>
+          <h2 class="role">Участник</h2>
+        </template>
+        <div>
+          <v-img
+            :width="300"
+            aspect-ratio="16/9"
+            cover
+            src="/чел 14.png"
+          ></v-img>
+        </div>
+        <div>
+          <div class="text-h6" style="margin-top: 30px;">Булат</div>
+          <p>
+            1 Курс
+          </p>
+          <p>
+            Факультет информационн технологий
+          </p>
+          <p>
+            09.03.01 информатика и вычислительная техника 
+          </p>
+          <p>
+            Веб-технологии
+          </p>
+        </div>
+      </v-timeline-item>
+      
+      <v-timeline-item>
+        <template v-slot:opposite>
+          <h2 class="role">Участник</h2>
+        </template>
+        <div style="padding-left: 24px;">
+          <v-img
+            :width="300"
+            aspect-ratio="16/9"
+            cover
+            src="/чел 13.png"
+          ></v-img>
+        </div>
+        <div style="padding-left: 24px;">
+          <div class="text-h6" style="margin-top: 30px;">Махрибан</div>
+          <p>
+            1 Курс
+          </p>
+          <p>
+            Факультет издательское дело и журналистика
+          </p>
+          <p>
+            Журналистика
+          </p>
+          <p>
+            231-023
+          </p>
+        </div>
+      </v-timeline-item>
 			
     </v-timeline>
   </v-container>
@@ -518,14 +576,22 @@ export default {
       <a href="#start" style="color: rgb(50, 49, 49); text-decoration: none;">
         <v-btn color="rgb(50, 49, 49)" block>Наверх</v-btn>
       </a>
-  </v-container>
+  </v-container>  
 
 </template>
 
 <style scoped>
 
 .v-timeline-item__body {
-  max-width: 400px;
+  max-width: 500px;
+  padding: 0;
+}
+.role{
+  display: block;
+}
+.role_small_size{
+  display: none;
+  font-size: 25px;
 }
 .bg-image {
     height: 100vh;
@@ -536,7 +602,7 @@ export default {
     position: relative;
     background: 
       linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
-      url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674274927_catherineasquithgallery-com-p-serii-fon-tekstura-abstraktsiya-foto-22.jpg);
+      url(/back_ground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -548,6 +614,14 @@ export default {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 601px) {
+    .role{
+      display: none;
+    }
+    .role_small_size{
+      display: block;
+    }
+  }
 
 
 .introduce {
