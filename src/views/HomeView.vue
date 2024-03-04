@@ -134,7 +134,7 @@ export default {
             src="/me.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Разработчик</a>Лев</div>
           <p>
             1 Курс
@@ -163,7 +163,7 @@ export default {
             src="/чел 12.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Куратор</a>Светлана</div>
           <p>
             Ассистент Центра проектной деятельности
@@ -183,7 +183,7 @@ export default {
             src="/чел 5.png"
           ></v-img>
         </div>
-        <div style="padding-right: 13px;">
+        <div style="padding-right: 13px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Анастасия</div>
           <p>
             1 Курс
@@ -209,7 +209,7 @@ export default {
             src="/чел 16.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px;">
+        <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Василиса</div>
           <p>
             1 Курс
@@ -238,7 +238,7 @@ export default {
             src="/я.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Любовь</div>
           <p>
             1 Курс
@@ -268,7 +268,7 @@ export default {
             src="/чел 6.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px;">
+        <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Монтажер</a>Родион</div>
           <p>
             1 Курс
@@ -326,7 +326,7 @@ export default {
             src="/чел 2.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px;">
+        <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Мерген</div>
           <p>
             1 Курс
@@ -352,7 +352,7 @@ export default {
             src="/чел 1.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Артем</div>
           <p>
             1 Курс
@@ -378,7 +378,7 @@ export default {
             src="/чел 4.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оскар</div>
           <p>
             1 Курс
@@ -407,7 +407,7 @@ export default {
             src="/чел 7.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ксения</div>
           <p>
             1 Курс
@@ -436,7 +436,7 @@ export default {
             src="/чел 3.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px;">
+        <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оксана</div>
           <p>
             1 Курс
@@ -465,7 +465,7 @@ export default {
             src="/чел 8.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Иван</div>
           <p>
             1 Курс
@@ -494,7 +494,7 @@ export default {
             src="/чел 9.jpg"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Айдын</div>
           <p>
             1 Курс
@@ -523,7 +523,7 @@ export default {
             src="/чел 14.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;">Булат</div>
           <p>
             1 Курс
@@ -552,7 +552,7 @@ export default {
             src="/чел 13.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px;">
+        <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;">Махрибан</div>
           <p>
             1 Курс
