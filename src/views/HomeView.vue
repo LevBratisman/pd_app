@@ -136,17 +136,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Разработчик</a>Лев</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Факультет информационных технологий
           </p>
-          <p>
-            Информатика и вычислительная техника.
+          <p style="font-size: 17px;">
+            Системная и программная инженерия
           </p>
           <p>
-            Системная и программная инженерия (231-3213)
+            231-3213
           </p>
         </div>
       </v-timeline-item>
@@ -165,7 +165,7 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Куратор</a>Светлана</div>
-          <p>
+          <p style="font-size: 18px;">
             Ассистент Центра проектной деятельности
           </p>
         </div>
@@ -185,14 +185,17 @@ export default {
         </div>
         <div style="padding-right: 13px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Анастасия</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Машиностроительный Факультет
           </p>
+          <p style="font-size: 17px;">
+            Управление в технических системах
+          </p>
           <p>
-            Управление в технических системах(231-251)
+            231-251
           </p>
         </div>
       </v-timeline-item>
@@ -211,17 +214,17 @@ export default {
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Василиса</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Полиграфический институт  
           </p>
-          <p>
-            Технология полиграфического и упаковочного производства
+          <p style="font-size: 17px;">
+            Дизайн и технологии производства визуального контента
           </p>
           <p>
-            Дизайн и технологии производства визуального контента (231-722)
+            231-722
           </p>
         </div>
       </v-timeline-item>
@@ -240,18 +243,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Любовь</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
-            Группа 231-821
-          </p>
-          <p>
+					<p style="font-size: 18px;">
             Институт графики и искусства книги имени В.А. Фаворского
           </p>
-          <p>
-            54.03.01 Дизайн
+          <p style="font-size: 17px;">
             Графический дизайн мультимедиа
+          </p>
+          <p>
+            231-821
           </p>
         </div>
       </v-timeline-item>
@@ -270,17 +272,17 @@ export default {
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Монтажер</a>Родион</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
-            Группа 231-262
+					<p style="font-size: 18px;">
+            Факультет машиностроения
           </p>
-          <p>
-            Факультет машиностроения 
-          </p>
-          <p>
+          <p style="font-size: 17px;">
             Интеллектуальная электроника и промышленный интернет вещей
+          </p>
+          <p>
+            231-262
           </p>
         </div>
       </v-timeline-item>
@@ -299,17 +301,17 @@ export default {
         </div>
         <div>
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ирина</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Полиграфический институт 
           </p>
-          <p>
-            Дизайн и проектирование мультимедиа и визуального контента 
+          <p style="font-size: 17px;">
+            Технология полиграфического и упаковочного производства
           </p>
           <p>
-            Технология полиграфического и упаковочного производства (231-721)
+            231-721
           </p>
         </div>
       </v-timeline-item>
@@ -328,14 +330,17 @@ export default {
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Мерген</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Факультет химической технологии и биотехнологии
           </p>
+          <p style="font-size: 17px;">
+            Техносферная безопасность
+          </p>
           <p>
-            Техносферная безопасность (231-511)
+            231-511
           </p>
         </div>
       </v-timeline-item>
@@ -354,14 +359,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Артем</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Машиностроительный Факультет
           </p>
+          <p style="font-size: 17px;">
+            Управление в технических системах
+          </p>
           <p>
-            Управление в технических системах (232-251)
+            232-251
           </p>
         </div>
       </v-timeline-item>
@@ -380,17 +388,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оскар</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
-            Группа 231-329
-          </p>
-          <p>
+          <p style="font-size: 18px;">
             факультета информационных технологий
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Системная и программная инженерия
+          </p>
+          <p>
+            231-329
           </p>
         </div>
       </v-timeline-item>
@@ -409,17 +417,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ксения</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
-            факультет Издательского дела
+					<p style="font-size: 18px;">
+            Факультет Издательского дела
+          </p>
+          <p style="font-size: 17px;">
+            Книгоиздательское дело
           </p>
           <p>
-            специализация Книгоиздательское дело
-          </p>
-          <p>
-            Группа 231-013
+            231-013
           </p>
         </div>
       </v-timeline-item>
@@ -438,17 +446,17 @@ export default {
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оксана</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
+					<p style="font-size: 18px;">
             Институт издательского дела и журналистики
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Журналистика
           </p>
           <p>
-            Группа 231-022
+            231-022
           </p>
         </div>
       </v-timeline-item>
@@ -467,17 +475,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Иван</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
+					<p style="font-size: 18px;">
             Факультет информационных технологий
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Информационные технологии управления бизнесом
           </p>
           <p>
-            Группа 231-365
+            231-365
           </p>
         </div>
       </v-timeline-item>
@@ -496,17 +504,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Айдын</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
+					<p style="font-size: 18px;">
             Факультет информационных технологий
           </p>
-          <p>
-            информационная безопасность
+          <p style="font-size: 17px;">
+            Информационная безопасность
           </p>
           <p>
-            Группа 231-352
+            231-352
           </p>
         </div>
       </v-timeline-item>	
@@ -525,17 +533,17 @@ export default {
         </div>
         <div style="margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;">Булат</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Факультет информационн технологий
           </p>
-          <p>
-            09.03.01 информатика и вычислительная техника 
+          <p style="font-size: 17px;">
+            Веб-технологии
           </p>
           <p>
-            Веб-технологии
+            231-023
           </p>
         </div>
       </v-timeline-item>
@@ -554,13 +562,13 @@ export default {
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
           <div class="text-h6" style="margin-top: 30px;">Махрибан</div>
-          <p>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Факультет издательское дело и журналистика
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Журналистика
           </p>
           <p>
