@@ -131,7 +131,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/me.png"
+            src="/Монтажная область 1 копия_9.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -160,7 +160,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 12.png"
+            src="/Монтажная область 1 копия_12.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -180,7 +180,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 5.png"
+            src="/Монтажная область 1 копия_2.png"
           ></v-img>
         </div>
         <div style="padding-right: 13px; margin-right: 10%;">
@@ -209,7 +209,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 16.png"
+            src="/Монтажная область 1 копия_5.png"
           ></v-img>
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
@@ -238,7 +238,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/я.png"
+            src="/public/Монтажная область 1 копия 2.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -267,7 +267,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 6.png"
+            src="/Монтажная область 1 копия_3.png"
           ></v-img>
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
@@ -296,7 +296,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 15.png"
+            src="/Монтажная область 1 копия_4.png"
           ></v-img>
         </div>
         <div>
@@ -325,7 +325,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 2.png"
+            src="/Монтажная область 1 копия_13.png"
           ></v-img>
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
@@ -354,7 +354,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 1.png"
+            src="/Монтажная область 1.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -383,7 +383,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 4.png"
+            src="/Монтажная область 1 копия_1.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -412,7 +412,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 7.png"
+            src="/public/Монтажная область 1 копия_14.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -441,7 +441,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 3.png"
+            src="/public/Монтажная область 1 копия.png"
           ></v-img>
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
@@ -470,7 +470,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 8.png"
+            src="/Монтажная область 1 копия_8.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -499,7 +499,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 9.jpg"
+            src="/Монтажная область 1 копия_11.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -528,7 +528,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 14.png"
+            src="/Монтажная область 1 копия_6.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;">
@@ -557,7 +557,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 13.png"
+            src="/Монтажная область 1 копия_7.png"
           ></v-img>
         </div>
         <div style="padding-left: 24px; margin-right: 10%;">
