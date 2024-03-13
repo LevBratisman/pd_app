@@ -238,7 +238,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/public/Монтажная область 1 копия 2.png"
+            src="/Монтажная область 1 копия 2.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;" class="bio">
@@ -412,7 +412,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/public/Монтажная область 1 копия_14.png"
+            src="/Монтажная область 1 копия_14.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;" class="bio">
@@ -441,7 +441,7 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/public/Монтажная область 1 копия.png"
+            src="/Монтажная область 1 копия.png"
           ></v-img>
         </div>
         <div style="margin-right: 10%;" class="bio">
