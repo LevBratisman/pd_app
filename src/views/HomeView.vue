@@ -131,10 +131,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/me.png"
+            src="/Монтажная область 1 копия_9.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Разработчик</a>Лев</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -160,10 +160,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 12.png"
+            src="/Монтажная область 1 копия_12.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Куратор</a>Светлана</div>
           <p style="font-size: 18px;">
             Ассистент Центра проектной деятельности
@@ -175,15 +175,15 @@ export default {
         <template v-slot:opposite>
           <h2 class="role">Контент-мейкер</h2>
         </template>
-        <div style="padding-right: 13px;">
+        <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 5.png"
+            src="/Монтажная область 1 копия_2.png"
           ></v-img>
         </div>
-        <div style="padding-right: 13px; margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Анастасия</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -204,15 +204,15 @@ export default {
         <template v-slot:opposite>
           <h2 class="role">Дизайнер</h2>
         </template>
-        <div style="padding-left: 24px;">
+        <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 16.png"
+            src="/Монтажная область 1 копия_5.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px; margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Василиса</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -238,10 +238,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/я.png"
+            src="/public/Монтажная область 1 копия 2.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Любовь</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -262,15 +262,15 @@ export default {
         <template v-slot:opposite>
           <h2 class="role">Монтажер</h2>
         </template>
-        <div style="padding-left: 24px;">
+        <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 6.png"
+            src="/Монтажная область 1 копия_3.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px; margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Монтажер</a>Родион</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -296,10 +296,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 15.png"
+            src="/Монтажная область 1 копия_4.png"
           ></v-img>
         </div>
-        <div>
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ирина</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -320,15 +320,15 @@ export default {
         <template v-slot:opposite>
           <h2 class="role">Участник</h2>
         </template>
-        <div style="padding-left: 24px;">
+        <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 2.png"
+            src="/Монтажная область 1 копия_13.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px; margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Мерген</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -354,10 +354,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 1.png"
+            src="/Монтажная область 1.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Артем</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -383,10 +383,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 4.png"
+            src="/Монтажная область 1 копия_1.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оскар</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -412,10 +412,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 7.png"
+            src="/public/Монтажная область 1 копия_14.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ксения</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -436,15 +436,15 @@ export default {
         <template v-slot:opposite>
           <h2 class="role">Контент-мейкер</h2>
         </template>
-        <div style="padding-left: 24px;">
+        <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 3.png"
+            src="/public/Монтажная область 1 копия.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px; margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оксана</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -470,10 +470,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 8.png"
+            src="/Монтажная область 1 копия_8.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Иван</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -499,10 +499,10 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 9.jpg"
+            src="/Монтажная область 1 копия_11.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
+        <div style="margin-right: 10%;" class="bio">
           <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Айдын</div>
           <p style="font-size: 20px;">
             1 Курс
@@ -528,11 +528,11 @@ export default {
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 14.png"
+            src="/Монтажная область 1 копия_6.png"
           ></v-img>
         </div>
-        <div style="margin-right: 10%;">
-          <div class="text-h6" style="margin-top: 30px;">Булат</div>
+        <div style="margin-right: 10%;" class="bio">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Булат</div>
           <p style="font-size: 20px;">
             1 Курс
           </p>
@@ -552,16 +552,16 @@ export default {
         <template v-slot:opposite>
           <h2 class="role">Участник</h2>
         </template>
-        <div style="padding-left: 24px;">
+        <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/чел 13.png"
+            src="/Монтажная область 1 копия_7.png"
           ></v-img>
         </div>
-        <div style="padding-left: 24px; margin-right: 10%;">
-          <div class="text-h6" style="margin-top: 30px;">Махрибан</div>
+        <div style="margin-right: 10%;" class="bio">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Махрибан</div>
           <p style="font-size: 20px;">
             1 Курс
           </p>
@@ -589,6 +589,10 @@ export default {
 </template>
 
 <style scoped>
+
+.bio {
+  width: 300px;
+}
 
 .v-timeline-item__body {
   max-width: 500px;
@@ -622,14 +626,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 601px) {
-    .role{
-      display: none;
-    }
-    .role_small_size{
-      display: block;
-    }
-  }
+
 
 
 .introduce {
@@ -647,4 +644,30 @@ export default {
 .introduce__btn {
   display: block;
 }
+
+@media (max-width: 601px) {
+    .role{
+      display: none;
+    }
+    .role_small_size{
+      display: block;
+    }
+    .introduce__content {
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .bio {
+      width: 250px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .bio {
+      width: 200px;
+    }
+  }
+
 </style>
