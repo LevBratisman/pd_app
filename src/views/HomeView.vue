@@ -658,9 +658,23 @@ export default {
     }
   }
 
+  @media (max-width: 450px) {
+    .bg-image {
+      background: 
+      linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+      url(/background_smallsize.jpeg);
+    }
+  }
+
   @media (max-width: 360px) {
     .bio {
       width: 250px;
+    }
+
+    .bg-image {
+      background: 
+      linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+      url(/background_smallsize.jpeg);
     }
   }
 
