@@ -645,6 +645,14 @@ export default {
   display: block;
 }
 
+@media (max-width: 1024px) {
+  .bg-image {
+      background: 
+      linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+      url(/background_tabletsize.jpeg);
+    }
+}
+
 @media (max-width: 601px) {
     .role{
       display: none;
