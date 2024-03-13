@@ -35,7 +35,7 @@ export default {
         color="#1976D2"
         rounded="xl"
         >
-        Перейти в Телеграм канал
+        Телеграм канал
       </v-btn>
       </a>
       <a href="https://t.me/simplephysicsbot" target=»_blank style="text-decoration: none;">
@@ -50,7 +50,7 @@ export default {
           block
           style="margin-right: 20px; margin-top: 20px;"
           >
-          Перейти в телеграм бот
+          Телеграм бот
         </v-btn>
       </a>
       <a href="#path" style="text-decoration: none;">
@@ -124,7 +124,7 @@ export default {
     <v-timeline side="start" style="text-align: left">
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Разработчик</h2>
+          <h2 class="role">Разработчик</h2>
         </template>
         <div>
           <v-img
@@ -134,26 +134,26 @@ export default {
             src="/me.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Лев</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Разработчик</a>Лев</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Факультет информационных технологий
           </p>
-          <p>
-            Информатика и вычислительная техника.
+          <p style="font-size: 17px;">
+            Системная и программная инженерия
           </p>
           <p>
-            Системная и программная инженерия (231-3213)
+            231-3213
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Куратор</h2>
+          <h2 class="role">Куратор</h2>
         </template>
         <div>
           <v-img
@@ -163,9 +163,9 @@ export default {
             src="/чел 12.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Светлана</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Куратор</a>Светлана</div>
+          <p style="font-size: 18px;">
             Ассистент Центра проектной деятельности
           </p>
         </div>
@@ -173,9 +173,9 @@ export default {
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
-        <div>
+        <div style="padding-right: 13px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -183,52 +183,55 @@ export default {
             src="/чел 5.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Анастасия</div>
-          <p>
+        <div style="padding-right: 13px; margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Анастасия</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Машиностроительный Факультет
           </p>
+          <p style="font-size: 17px;">
+            Управление в технических системах
+          </p>
           <p>
-            Управление в технических системах(231-251)
+            231-251
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Дизайнер</h2>
+          <h2 class="role">Дизайнер</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/5_1.png"
+            src="/чел 16.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Василиса</div>
-          <p>
+        <div style="padding-left: 24px; margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Василиса</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Полиграфический институт  
           </p>
-          <p>
-            Технология полиграфического и упаковочного производства
+          <p style="font-size: 17px;">
+            Дизайн и технологии производства визуального контента
           </p>
           <p>
-            Дизайн и технологии производства визуального контента (231-722)
+            231-722
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Дизайнер</h2>
+          <h2 class="role">Дизайнер</h2>
         </template>
         <div>
           <v-img
@@ -238,29 +241,28 @@ export default {
             src="/я.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Любовь</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Дизайнер</a>Любовь</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
-            Группа 231-821
-          </p>
-          <p>
+					<p style="font-size: 18px;">
             Институт графики и искусства книги имени В.А. Фаворского
           </p>
-          <p>
-            54.03.01 Дизайн
+          <p style="font-size: 17px;">
             Графический дизайн мультимедиа
+          </p>
+          <p>
+            231-821
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Монтажер</h2>
+          <h2 class="role">Монтажер</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -268,57 +270,57 @@ export default {
             src="/чел 6.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Родион</div>
-          <p>
+        <div style="padding-left: 24px; margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Монтажер</a>Родион</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
-            Группа 231-262
+					<p style="font-size: 18px;">
+            Факультет машиностроения
           </p>
-          <p>
-            Факультет машиностроения 
-          </p>
-          <p>
+          <p style="font-size: 17px;">
             Интеллектуальная электроника и промышленный интернет вещей
+          </p>
+          <p>
+            231-262
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
         <div>
           <v-img
             :width="300"
             aspect-ratio="16/9"
             cover
-            src="/4.png"
+            src="/чел 15.png"
           ></v-img>
         </div>
         <div>
-          <div class="text-h6" style="margin-top: 30px;">Ирина</div>
-          <p>
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ирина</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Полиграфический институт 
           </p>
-          <p>
-            Дизайн и проектирование мультимедиа и визуального контента 
+          <p style="font-size: 17px;">
+            Технология полиграфического и упаковочного производства
           </p>
           <p>
-            Технология полиграфического и упаковочного производства (231-721)
+            231-721
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -326,23 +328,26 @@ export default {
             src="/чел 2.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Мерген</div>
-          <p>
+        <div style="padding-left: 24px; margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Мерген</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Факультет химической технологии и биотехнологии
           </p>
+          <p style="font-size: 17px;">
+            Техносферная безопасность
+          </p>
           <p>
-            Техносферная безопасность (231-511)
+            231-511
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
         <div>
           <v-img
@@ -352,23 +357,26 @@ export default {
             src="/чел 1.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Артем</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Артем</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
+          <p style="font-size: 18px;">
             Машиностроительный Факультет
           </p>
+          <p style="font-size: 17px;">
+            Управление в технических системах
+          </p>
           <p>
-            Управление в технических системах (232-251)
+            232-251
           </p>
         </div>
       </v-timeline-item>
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
         <div>
           <v-img
@@ -378,26 +386,26 @@ export default {
             src="/чел 4.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Оскар</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оскар</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-          <p>
-            Группа 231-329
-          </p>
-          <p>
+          <p style="font-size: 18px;">
             факультета информационных технологий
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Системная и программная инженерия
+          </p>
+          <p>
+            231-329
           </p>
         </div>
       </v-timeline-item>
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
         <div>
           <v-img
@@ -407,28 +415,28 @@ export default {
             src="/чел 7.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Ксения</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Ксения</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
-            факультет Издательского дела
+					<p style="font-size: 18px;">
+            Факультет Издательского дела
+          </p>
+          <p style="font-size: 17px;">
+            Книгоиздательское дело
           </p>
           <p>
-            специализация Книгоиздательское дело
-          </p>
-          <p>
-            Группа 231-013
+            231-013
           </p>
         </div>
       </v-timeline-item>
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Контент-мейкер</h2>
+          <h2 class="role">Контент-мейкер</h2>
         </template>
-        <div>
+        <div style="padding-left: 24px;">
           <v-img
             :width="300"
             aspect-ratio="16/9"
@@ -436,26 +444,26 @@ export default {
             src="/чел 3.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Оксана</div>
-          <p>
+        <div style="padding-left: 24px; margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Контент-мейкер</a>Оксана</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
+					<p style="font-size: 18px;">
             Институт издательского дела и журналистики
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Журналистика
           </p>
           <p>
-            Группа 231-022
+            231-022
           </p>
         </div>
       </v-timeline-item>
 
 			<v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
         <div>
           <v-img
@@ -465,26 +473,26 @@ export default {
             src="/чел 8.png"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Иван</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Иван</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
+					<p style="font-size: 18px;">
             Факультет информационных технологий
           </p>
-          <p>
+          <p style="font-size: 17px;">
             Информационные технологии управления бизнесом
           </p>
           <p>
-            Группа 231-365
+            231-365
           </p>
         </div>
       </v-timeline-item>
 
       <v-timeline-item>
         <template v-slot:opposite>
-          <h2>Участник</h2>
+          <h2 class="role">Участник</h2>
         </template>
         <div>
           <v-img
@@ -494,22 +502,80 @@ export default {
             src="/чел 9.jpg"
           ></v-img>
         </div>
-        <div>
-          <div class="text-h6" style="margin-top: 30px;">Айдын</div>
-          <p>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;"><a class="role_small_size">Участник</a>Айдын</div>
+          <p style="font-size: 20px;">
             1 Курс
           </p>
-					<p>
+					<p style="font-size: 18px;">
             Факультет информационных технологий
           </p>
-          <p>
-            информационная безопасность
+          <p style="font-size: 17px;">
+            Информационная безопасность
           </p>
           <p>
-            Группа 231-352
+            231-352
           </p>
         </div>
-      </v-timeline-item>			
+      </v-timeline-item>	
+
+      <v-timeline-item>
+        <template v-slot:opposite>
+          <h2 class="role">Участник</h2>
+        </template>
+        <div>
+          <v-img
+            :width="300"
+            aspect-ratio="16/9"
+            cover
+            src="/чел 14.png"
+          ></v-img>
+        </div>
+        <div style="margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;">Булат</div>
+          <p style="font-size: 20px;">
+            1 Курс
+          </p>
+          <p style="font-size: 18px;">
+            Факультет информационн технологий
+          </p>
+          <p style="font-size: 17px;">
+            Веб-технологии
+          </p>
+          <p>
+            231-023
+          </p>
+        </div>
+      </v-timeline-item>
+      
+      <v-timeline-item>
+        <template v-slot:opposite>
+          <h2 class="role">Участник</h2>
+        </template>
+        <div style="padding-left: 24px;">
+          <v-img
+            :width="300"
+            aspect-ratio="16/9"
+            cover
+            src="/чел 13.png"
+          ></v-img>
+        </div>
+        <div style="padding-left: 24px; margin-right: 10%;">
+          <div class="text-h6" style="margin-top: 30px;">Махрибан</div>
+          <p style="font-size: 20px;">
+            1 Курс
+          </p>
+          <p style="font-size: 18px;">
+            Факультет издательское дело и журналистика
+          </p>
+          <p style="font-size: 17px;">
+            Журналистика
+          </p>
+          <p>
+            231-023
+          </p>
+        </div>
+      </v-timeline-item>
 			
     </v-timeline>
   </v-container>
@@ -518,14 +584,22 @@ export default {
       <a href="#start" style="color: rgb(50, 49, 49); text-decoration: none;">
         <v-btn color="rgb(50, 49, 49)" block>Наверх</v-btn>
       </a>
-  </v-container>
+  </v-container>  
 
 </template>
 
 <style scoped>
 
 .v-timeline-item__body {
-  max-width: 400px;
+  max-width: 500px;
+  padding: 0;
+}
+.role{
+  display: block;
+}
+.role_small_size{
+  display: none;
+  font-size: 25px;
 }
 .bg-image {
     height: 100vh;
@@ -536,7 +610,7 @@ export default {
     position: relative;
     background: 
       linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
-      url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674274927_catherineasquithgallery-com-p-serii-fon-tekstura-abstraktsiya-foto-22.jpg);
+      url(/back_ground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -548,6 +622,14 @@ export default {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 601px) {
+    .role{
+      display: none;
+    }
+    .role_small_size{
+      display: block;
+    }
+  }
 
 
 .introduce {
