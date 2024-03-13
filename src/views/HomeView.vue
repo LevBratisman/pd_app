@@ -20,7 +20,7 @@ export default {
 <template>
   <div id="start"></div>
   <v-container class="bg-image">
-    <div>
+    <div transition="fade-transition">
       <h1 class="introduce">
 
       </h1>
@@ -580,7 +580,7 @@ export default {
     </v-timeline>
   </v-container>
 
-  <v-container>
+  <v-container class="upbutton">
       <a href="#start" style="color: rgb(50, 49, 49); text-decoration: none;">
         <v-btn color="rgb(50, 49, 49)" block>Наверх</v-btn>
       </a>
@@ -592,6 +592,13 @@ export default {
 
 .bio {
   width: 300px;
+}
+
+.upbutton {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .v-timeline-item__body {

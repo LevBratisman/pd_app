@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="padding-bottom: 100px;">
     <!-- App toolbar -->
     <v-app-bar elevation="12" rounded>
 
