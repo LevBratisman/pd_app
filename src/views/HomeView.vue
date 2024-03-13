@@ -649,7 +649,7 @@ export default {
   .bg-image {
       background: 
       linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
-      url(/background_tabletsize.png);
+      url(/background_tabletsize.jpeg);
     }
 }
 
